@@ -1,0 +1,11 @@
+:root{
+    --primary-color: orangered;
+    --secondary-color: rgba(0, 0, 0, 0.774);
+    --bg-color: aliceblue;
+    --white-color: #fff;
+    --success-color:#22bb33;
+    --danger-color:#F44336;
+    --warning-color:#FF9800;
+    --information-color:lightseagreen;
+    --gray-color:gray;
+}
