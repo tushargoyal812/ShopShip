@@ -5,20 +5,20 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.flex-col-center{
+.flex-col-center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--secondary-color);
     font-weight: 900;
 }
 
-.mg-auto{
+.mg-auto {
     margin: auto;
 }
 
@@ -38,31 +38,43 @@ iframe {
     margin-top: 2rem;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.border-2{
+.border-2 {
     border: 2px solid black;
 }
 
-.justify-content-center{
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-content-center {
     justify-content: center;
 }
 
-.align-items{
+.align-items {
     align-items: center;
 }
 
-.flex-direction-col{
+.flex-direction-col {
     flex-direction: column;
 }
 
-.flex-direction-row{
+.flex-direction-row {
     flex-direction: row;
 }
 
-.centered{
+.centered {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +83,7 @@ iframe {
 
 /* margin utils */
 
-.m-0-25{
+.m-0-25 {
     margin: 0.25rem;
 }
 
@@ -239,7 +251,7 @@ iframe {
 
 /* padding*/
 
-.p-0-25{
+.p-0-25 {
     padding: 0.25rem;
 }
 
