@@ -22,3 +22,7 @@
 .margin-0{
     margin: 2rem;
 }
+
+.space-between-cart{
+    justify-content: space-between;
+}
