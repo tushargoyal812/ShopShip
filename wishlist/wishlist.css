@@ -1,0 +1,10 @@
+
+.all-wishlists{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+}
+
+.showing{
+    font-size: 1.5rem;
+}
