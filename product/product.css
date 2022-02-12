@@ -25,3 +25,11 @@
 .showing{
     font-size: 1.5rem;
 }
+
+.gray-cart{
+    color: var(--gray-color);
+}
+
+.gray-cart:hover{
+    color: var(--danger-color);
+}
