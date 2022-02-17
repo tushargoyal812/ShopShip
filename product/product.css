@@ -7,19 +7,37 @@
 }
 
 .product-sidebar{
-    /* background-color: blueviolet; */
     grid-column: 1 / 2;
 }
 
 .product-main{
-    background-color: var(--bg-color);
     grid-column: 2 / 3;
+}
+
+.product-cards{
+    border-radius: 0rem;
+    box-shadow: -5px 5px 5px #cbd5e1;
+}
+
+.cart-button{
+    border: none;
+    background-color: var(--ecom-bg-color);
+}
+
+
+.badge-best-seller{
+    background-color: var(--ecom-bg-color);
+}
+
+
+.product-cards:hover{
+    transition: width 2s;
 }
 
 .all-products{
     display: grid;
-    gap:0.5rem;
-    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(14rem,1fr));
 }
 
 .showing{

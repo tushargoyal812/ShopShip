@@ -8,29 +8,30 @@
     <title>Shop-Ship/Products</title>
     <link rel="stylesheet" href="https://garuda-ui.netlify.app/index.css">
     <link rel="stylesheet" href="/product/product.css">
+    <link rel="stylesheet" href="/home.css">
     <script src="https://kit.fontawesome.com/108bfd668b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="e-com-header">
-        <nav class="e-com-navbar">
-            ShopShip
+        <nav class="e-com-navbar shop-nav ecom-bg-blue">
+            <div class="ecom-white">ShopShip</div>
             <ul class="e-com-nav-items">
             </ul>
-            <input type="text" class="search-input" placeholder="search">
+            <input type="text" class="search-input ecom-search" placeholder="search">
             <div class="e-com-social">
                 <div class="ecom-login-container">
-                    <button class="login-btn">Login</button>
+                    <button class="login-btn ecom-bg-white ecom-blue">Login</button>
                 </div>
                 <a href="" class="e-com-nav-icons anchor-style pointer">
-                    <i class="fas fa-heart heart-icon">
+                    <i class="fas fa-heart heart-icon ecom-white">
                         <div class="ecom-badge">4</div>
                     </i>
                 </a>
                 <a href="" class="e-com-nav-icons anchor-style pointer">
-                    <i class="fas fa-shopping-cart cart-icon">
+                    <i class="fas fa-shopping-cart cart-icon ecom-white">
                         <div class="ecom-badge">5</div>
-                        <span class="cart-text">cart</span>
+                        <span class="cart-text ecom-white">cart</span>
                     </i>
                 </a>
             </div>
@@ -84,7 +85,7 @@
                 Showing All Products
             </div>
             <div class="all-products">
-                <div class="card">
+                <div class="card product-cards">
                     <div class="badge-section"></div>
                     <i class="far fa-heart like-cart"></i>
                     <div class="card-main-section">
@@ -101,15 +102,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card product-cards">
                     <div class="badge-section"></div>
                     <i class="far fa-heart like-cart gray-cart"></i>
                     <span class="badge-best-seller">Best seller</span>
                     <span class="display-none">
                         <i class="far fa-times-circle cross-icon "></i>
-                    </span>
-                    <span class="out-of-stock display-none">
-                        Out Of Stock
                     </span>
                     <div class="card-main-section">
                         <img src="/assets/IMG_20220205_233718.png" class="product-img" alt="">
@@ -125,16 +123,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card product-cards">
                     <div class="badge-section"></div>
                     <i class="far fa-heart like-cart gray-cart"></i>
                     <span class="badge-best-seller display-none">Best seller</span>
                     <span class="display-none">
                         <i class="far fa-times-circle cross-icon"></i>
                     </span>
-                    <span class="out-of-stock">
-                        Out Of Stock
-                    </span>
                     <div class="card-main-section">
                         <img src="/assets/IMG_20220205_233718.png" class="product-img" alt="">
                         <main class="middle">
@@ -149,7 +144,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card product-cards">
                     <div class="badge-section"></div>
                     <i class="far fa-heart like-cart"></i>
                     <div class="card-main-section">
@@ -166,7 +161,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card product-cards">
                     <div class="badge-section"></div>
                     <i class="far fa-heart like-cart gray-cart"></i>
                     <div class="card-main-section">
@@ -183,7 +178,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card product-cards">
                     <div class="badge-section"></div>
                     <i class="far fa-heart like-cart gray-cart"></i>
                     <div class="card-main-section">
@@ -200,15 +195,33 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card product-cards">
                     <div class="badge-section"></div>
                     <i class="far fa-heart like-cart gray-cart"></i>
                     <span class="badge-best-seller">Best seller</span>
                     <span class="display-none">
                         <i class="far fa-times-circle cross-icon "></i>
                     </span>
-                    <span class="out-of-stock display-none">
-                        Out Of Stock
+                    <div class="card-main-section">
+                        <img src="/assets/IMG_20220205_233718.png" class="product-img" alt="">
+                        <main class="middle">
+                            <div class="small-1">iPhone 13 (256GB) - Midnight</div>
+                            <div class="small-2">₹78900
+                            </div>
+                        </main>
+                        <div class="btn-section">
+                            <button class="cart-button">
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card product-cards">
+                    <div class="badge-section"></div>
+                    <i class="far fa-heart like-cart gray-cart"></i>
+                    <span class="badge-best-seller">Best seller</span>
+                    <span class="display-none">
+                        <i class="far fa-times-circle cross-icon "></i>
                     </span>
                     <div class="card-main-section">
                         <img src="/assets/IMG_20220205_233718.png" class="product-img" alt="">
@@ -224,15 +237,33 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card product-cards">
                     <div class="badge-section"></div>
                     <i class="far fa-heart like-cart gray-cart"></i>
                     <span class="badge-best-seller">Best seller</span>
                     <span class="display-none">
                         <i class="far fa-times-circle cross-icon "></i>
                     </span>
-                    <span class="out-of-stock display-none">
-                        Out Of Stock
+                    <div class="card-main-section">
+                        <img src="/assets/IMG_20220205_233718.png" class="product-img" alt="">
+                        <main class="middle">
+                            <div class="small-1">iPhone 13 (256GB) - Midnight</div>
+                            <div class="small-2">₹78900
+                            </div>
+                        </main>
+                        <div class="btn-section">
+                            <button class="cart-button">
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card product-cards">
+                    <div class="badge-section"></div>
+                    <i class="far fa-heart like-cart gray-cart"></i>
+                    <span class="badge-best-seller">Best seller</span>
+                    <span class="display-none">
+                        <i class="far fa-times-circle cross-icon "></i>
                     </span>
                     <div class="card-main-section">
                         <img src="/assets/IMG_20220205_233718.png" class="product-img" alt="">
