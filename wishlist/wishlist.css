@@ -1,20 +1,23 @@
-
-.all-wishlists{
+.all-wishlists {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit,minmax(12rem,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
 }
 
-.showing{
+.showing {
     font-size: 1.5rem;
 }
 
-.cart-button{
-    border:none;
-    background-color:var(--ecom-bg-color);
+.cart-button {
+    border: none;
+    background-color: var(--ecom-bg-color);
 }
 
-.card{
+.card {
     border-radius: 0rem;
     box-shadow: -5px 5px 5px #cbd5e1;
+}
+
+.wishlist-heading {
+    line-height: 3rem;
 }
