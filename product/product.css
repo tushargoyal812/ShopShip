@@ -3,7 +3,7 @@
 .product-main-sidebar{
     display: grid;
     height: 100vh;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 20rem 1fr;
 }
 
 .product-sidebar{
