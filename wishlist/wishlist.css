@@ -1,3 +1,7 @@
+:root {
+    --shadow: #cbd5e1;
+}
+
 .all-wishlists {
     display: grid;
     gap: 1rem;
@@ -15,7 +19,7 @@
 
 .card {
     border-radius: 0rem;
-    box-shadow: -5px 5px 5px #cbd5e1;
+    box-shadow: -5px 5px 5px var(--shadow);
 }
 
 .wishlist-heading {
