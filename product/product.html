@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/home.css">
     <script src="https://kit.fontawesome.com/108bfd668b.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="/assets/shop-2.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -42,10 +43,18 @@
             </div>
         </nav>
     </header>
+    <div>
+        <span id="hamburger" class="material-icons">
+            menu
+        </span>
+        <span id="cross" class="material-icons">
+            close
+        </span>
+    </div>
     <div class="product-main-sidebar">
-        <aside class="product-sidebar p-2">
+        <aside class="responsive-product-sidebar p-2">
             <div class="filter p-1">
-                <h2>filter <a href="">clear</a> </h2>
+                <h2>filter</h2> <a href="">clear</a>
             </div>
             <div class="price p-1">
                 <h2 class="">price</h2>
@@ -53,7 +62,7 @@
             </div>
             <div class="product-category flex flex-direction-col p-1">
                 <h2>catrgory</h2>
-                <div class="">
+                <div class="py-0-5">
                     <input type="checkbox"><span>mens clothing</span>
                 </div>
                 <div>
@@ -61,23 +70,65 @@
                 </div>
             </div>
             <div class="product-rating flex flex-direction-col p-1">
-                <h2>rating</h2>
-                <div>
+                <h2 class="pb-0-5">rating</h2>
+                <div class="pb-0-5">
                     <input type="radio"><span>4 star and above</span>
                 </div>
-                <div>
+                <div class="pb-0-5">
                     <input type="radio"><span>3 star and above</span>
                 </div>
-                <div>
+                <div class="pb-0-5">
                     <input type="radio"><span>2 star and above</span>
                 </div>
-                <div>
+                <div class="pb-0-5">
                     <input type="radio"><span>1 star and above</span>
                 </div>
             </div>
             <div class="product-sort flex flex-direction-col p-1">
-                <h2>sort by</h2>
+                <h2 class="pb-0-5">sort by</h2>
+                <div class="pb-0-5">
+                    <input type="radio"><span>Price low to high</span>
+                </div>
                 <div>
+                    <input type="radio"><span>Price high to low</span>
+                </div>
+            </div>
+        </aside>
+        <aside class="product-sidebar p-2">
+            <div class="filter p-1">
+                <h2>filter</h2> <a href="">clear</a>
+            </div>
+            <div class="price p-1">
+                <h2 class="">price</h2>
+                <input type="range" class="p-1">
+            </div>
+            <div class="product-category flex flex-direction-col p-1">
+                <h2>catrgory</h2>
+                <div class="py-0-5">
+                    <input type="checkbox"><span>mens clothing</span>
+                </div>
+                <div>
+                    <input type="checkbox"><span>mens clothing</span>
+                </div>
+            </div>
+            <div class="product-rating flex flex-direction-col p-1">
+                <h2 class="pb-0-5">rating</h2>
+                <div class="pb-0-5">
+                    <input type="radio"><span>4 star and above</span>
+                </div>
+                <div class="pb-0-5">
+                    <input type="radio"><span>3 star and above</span>
+                </div>
+                <div class="pb-0-5">
+                    <input type="radio"><span>2 star and above</span>
+                </div>
+                <div class="pb-0-5">
+                    <input type="radio"><span>1 star and above</span>
+                </div>
+            </div>
+            <div class="product-sort flex flex-direction-col p-1">
+                <h2 class="pb-0-5">sort by</h2>
+                <div class="pb-0-5">
                     <input type="radio"><span>Price low to high</span>
                 </div>
                 <div>
@@ -287,6 +338,7 @@
             </div>
         </main>
     </div>
+    <script src="/product/index.js"></script>
 </body>
 
 </html>
