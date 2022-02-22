@@ -19,6 +19,7 @@
 
 .product-main{
     grid-column: 2 / 3;
+    margin-top: 10rem;
 }
 
 .product-cards{
@@ -63,10 +64,15 @@
     z-index: 1;
     transition: all 0.5s ease-in-out;
     overflow-y: scroll;
+    position: fixed;
+    height: 100vh;
+    margin-top: 8rem;
 }
 
 #hamburger{
     display: none;
+    position: fixed;
+    z-index: 5;
 }
 
 .gray-cart:hover{

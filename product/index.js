@@ -22,14 +22,16 @@ var crossBtn=document.querySelector('#cross')
 // hamburger.style.display='none';
 
 // showUI.style.display="none"
-crossBtn.style.display='none'
+// crossBtn.style.display='none'
 hamburger.addEventListener("click",()=>{
-    crossBtn.style.display='block'
-    hamburger.style.display='none';
+    // crossBtn.style.display='block'
+    // hamburger.style.display='none';
     if(productSidebar.style.left ==="0px"){
         productSidebar.style.left="-100%"
+        hamburger.innerText="menu";
     }else{
         productSidebar.style.left="0px"
+        hamburger.innerText="close";
     }
 })
 

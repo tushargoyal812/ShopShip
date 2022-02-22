@@ -9,6 +9,8 @@
 
 .shop-nav {
     border-radius: 0;
+    position: fixed;
+    z-index: 2;
 }
 
 .shop-ship-header {
